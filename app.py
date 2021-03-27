@@ -44,7 +44,8 @@ def post_something():
 # A welcome message to test our server
 @app.route('/')
 def index():
-    return "<h1>Assalamualaikum Ad-Dunya !!</h1>"
+    return "<h1>Assalamualaikum Ad-Dunya !!</h1> <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+"
 
 @app.route('/soalan-syafie')
 def index1():
