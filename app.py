@@ -46,6 +46,10 @@ def post_something():
 def index():
     return "<h1>Assalamualaikum Ad-Dunya !!</h1>"
 
+@app.route('/soalan-syafie')
+def index():
+    return "<h1>Soalan Tadi</h1>"
+
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
     app.run(threaded=True, port=5000)
